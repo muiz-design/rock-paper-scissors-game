@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock, papar, scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="scores">
+            <p>computer
+                <span id="computer_score"></span>
+            </p>
+            <p>you
+                <span id="user_score"></span>
+            </p>
+        </div>
+    <div class="weapons">
+        <button onclick="checker('rock')">
+            <img src="rock.svg" alt="rock" >
+            <i class="far fa-hand-rock"></i>
+        </button>
+        <button onclick="checker('paper')">
+            <img src="paper.svg" alt="paper">
+            <i class="far fa-hand-paper"></i>
+        </button>
+        <button onclick="checker('scissors')">
+            <img src="scissors.svg" alt="scissors">
+            <i class="far fa-hand-scissors"></i>
+        </button>
+    </div>
+        <div class="details">
+            <p id="user_choice"></p>
+            <p id="comp_choice"></p>
+            <p id="result"></p>
+        </div>
+     </div>
+
+     <script src="script.js"></script>
+    </body>
+</html>
